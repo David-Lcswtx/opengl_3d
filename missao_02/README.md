@@ -1,0 +1,4 @@
+ # Missão 2 – O Bloco de Pedra de Koralon
+
+Um antigo artefato está enterrado nos arquivos da geometria tridimensional: o Bloco de Pedra de Koralon, um paralelepípedo sólido, esculpido manualmente nos primórdios do espaço cartesiano. Como Guardião Espacial, sua tarefa é reconstruí-lo sem recorrer às formas pré-fabricadas da GLUT. Cada vértice, cada face, deve ser definido com exatidão e clareza, como um escultor digital. Modele um paralelepípedo 3D utilizando GL_QUADS ou GL_POLYGON, definindo manual e explicitamente cada face e coordenadas dos vértices.
+Utilize diferentes chamadas de câmera (com gluLookAt ou manipulação da glMatrixMode) para exibir o objeto sob pelo menos três ângulos de visualização distintos: frontal, lateral e inclinado. Mantenha o objeto fixo e alterne apenas a posição do observador (câmera). Você pode usar uma variável global para modificar os valores de posição da câmera usando as teclas especiais (UP, DOWN, LEFT e RIGHT).
